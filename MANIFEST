@@ -1,0 +1,8 @@
+Changes
+COPYING
+Makefile.PL
+MANIFEST
+MANIFEST.SKIP
+README
+lib/Wx/Perl/FSHandler/UNC.pm
+t/fs_unchandler.t
