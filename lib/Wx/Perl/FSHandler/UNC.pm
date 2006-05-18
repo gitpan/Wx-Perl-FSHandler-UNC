@@ -2,16 +2,17 @@
 ## Name:        Wx::Perl::FSHandler::UNC
 ## Purpose:     UNC FileSystemHandler
 ## Author:      Simon Flack
-## Modified by: $Author: johna $ on $Date: 2005/01/12 13:59:28 $
+## Modified by: $Author: mattheww $ on $Date: 2006/05/18 11:13:03 $
 ## Created:     14/11/2002
-## RCS-ID:      $Id: UNC.pm,v 1.7 2005/01/12 13:59:28 johna Exp $
+## RCS-ID:      $Id: UNC.pm,v 1.8 2006/05/18 11:13:03 mattheww Exp $
 #############################################################################
 
 package  Wx::Perl::FSHandler::UNC;
 use strict;
 use vars qw( @ISA $VERSION );
+
 @ISA = qw( Wx::PlFileSystemHandler );
-$VERSION = sprintf'%d.%03d', q$Revision: 1.7 $ =~ /: (\d+)\.(\d+)/;
+$VERSION = sprintf'%d.%03d', q$Revision: 1.8 $ =~ /: (\d+)\.(\d+)/;
 
 use IO::File;
 use Wx::FS;
